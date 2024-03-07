@@ -1,6 +1,6 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta {
 	// Atributos / Caracteristicas
 	// Encapsulamento: Encapsular/Proteger algo
 	// Private / Protected / Public / Friendly
@@ -92,7 +92,7 @@ public class Conta {
 		System.out.println("\n\n***********************************************************");
 		System.out.println("Dados da Conta:");
 		System.out.println("***********************************************************");
-		System.out.println("Numero da Conta: " + this.numero);
+		System.out.println("Número da Conta: " + this.numero);
 		System.out.println("Agência: " + this.agencia);
 		System.out.println("Tipo da Conta: " + tipo);
 		System.out.println("Titular: " + this.titular);
